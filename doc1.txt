@@ -2,14 +2,10 @@ First commands:
 
 To upload file to your get account:
 
-Ulysses Moore@DESKTOP-J70745E MINGW64 /c/git/TestGit (master)
+/c/git/TestGit (master)
 $ git add doc1.txt
 
-Ulysses Moore@DESKTOP-J70745E MINGW64 /c/git/TestGit (master)
-$ status
-bash: status: command not found
-
-Ulysses Moore@DESKTOP-J70745E MINGW64 /c/git/TestGit (master)
+/c/git/TestGit (master)
 $ git status
 On branch master
 
@@ -20,13 +16,13 @@ Changes to be committed:
         new file:   doc1.txt
 
 
-Ulysses Moore@DESKTOP-J70745E MINGW64 /c/git/TestGit (master)
+/c/git/TestGit (master)
 $ git commit -m "first commit" doc1.txt
 [master (root-commit) 0e2484c] first commit
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 doc1.txt
 
-Ulysses Moore@DESKTOP-J70745E MINGW64 /c/git/TestGit (master)
+/c/git/TestGit (master)
 $ git push -u origin master
 Enumerating objects: 3, done.
 Counting objects: 100% (3/3), done.
@@ -36,4 +32,4 @@ To https://github.com/umoore50/TestGit.git
  * [new branch]      master -> master
 Branch 'master' set up to track remote branch 'master' from 'origin'.
 
-Ulysses Moore@DESKTOP-J70745E MINGW64 /c/git/TestGit (master)
+
